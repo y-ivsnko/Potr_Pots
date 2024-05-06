@@ -1,0 +1,2 @@
+const e=document.querySelector(".slider"),l=document.querySelectorAll(".slider__slide"),s=document.querySelectorAll(".slider__point"),i=l.length;let t=0;e.addEventListener("click",()=>{l[t].classList.remove("slider__slide--active"),s[t].classList.remove("slider__point--active"),l[t=(t+1)%i].classList.add("slider__slide--active"),s[t].classList.add("slider__point--active")});
+//# sourceMappingURL=index.833879d8.js.map
